@@ -8,7 +8,7 @@ import ContactUs from './components/ContactUs/ContactUs'
 
 function App() {
   return (
-    <div>
+    <div className='bg-white'>
       <Home />
       <Introduction />
       <Work />
