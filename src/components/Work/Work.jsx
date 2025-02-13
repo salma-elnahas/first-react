@@ -4,7 +4,7 @@ import DownWork from './DownWork'
 
 function Work() {
   return (
-      <div className='w-full '>
+      <div id='work' className='w-full  bg-white  '>
           <UpWork />
           <DownWork/>
     </div>

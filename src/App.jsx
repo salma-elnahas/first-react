@@ -2,6 +2,7 @@ import React from 'react'
 import Home from './components/Home/Home'
 import Introduction from './components/Introduction.jsx/Introduction'
 import Work from './components/Work/Work'
+import ContactUs from './components/ContactUs/ContactUs'
 
  
 
@@ -10,7 +11,8 @@ function App() {
     <div>
       <Home />
       <Introduction />
-      <Work/>
+      <Work />
+      <ContactUs/>
     </div>
   )
 }

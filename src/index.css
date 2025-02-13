@@ -2,6 +2,10 @@
 @plugin "daisyui";
 
 @theme{
-    --color-mainColor: #000957;
-    --color-lineColor:#A9B5DF;
+    --color-mainColor: #050E47;
+    --color-lineColor:#E28E72;
+ 
 }
+@plugin "daisyui" {
+    themes: all;
+  }

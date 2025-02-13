@@ -4,7 +4,7 @@ import DownIntroduction from './DownIntroduction'
 
 function Introduction() {
   return (
-      <div className='w-full '>
+      <div className='w-full bg-white mt-10'>
           <UpIntroduction />
           <DownIntroduction/>
       </div>
