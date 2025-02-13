@@ -3,16 +3,14 @@ import React from 'react'
 function UpHome() {
   return (
       <div>
-         <div className="navbar bg-[#E6906F] shadow-sm">
-  <div className="flex-1">
-    <a className="btn btn-ghost text-3xl text-white font-bold italic" href='#home'>The Town</a>
-  </div>
-  <div className="flex-none">
-    <button className="btn btn-square btn-ghost">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block h-5 w-5 stroke-current"> <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path> </svg>
-    </button>
-  </div>
-</div>
+         <div className="navbar  bg-lineColor shadow-sm flex justify-between">
+        <a className="btn btn-ghost hover:bg-lineColor text-xl ">The Town</a>
+        <div className='flex gap-4'>
+          <a href="#introduction" className='btn btn-ghost text-xl hover:bg-lineColor'>Introduction </a>
+          <a href="#work" className=' btn btn-ghost text-xl hover:bg-lineColor'>Our Work</a>
+          <a href="#contact" className='btn btn-ghost text-xl hover:bg-lineColor' >Contact Us</a>
+        </div>
+          </div>
     </div>
   )
 }

@@ -2,10 +2,9 @@ import React from 'react'
 
 function DownHome() {
   return (
-    <div className='flex   justify-center ' >
-      <h1 className='text-5xl text-bold text-white  p-8 m-8 '>The Town</h1>
-
-    </div>
+      <div className='flex justify-center p-3 m-4 ' >
+      <h1 className='text-5xl text-bold text-white text-shadow'>The Town</h1>
+   </div>
   )
 }
 
